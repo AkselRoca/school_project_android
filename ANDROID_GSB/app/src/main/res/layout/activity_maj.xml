@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ajoutTextViewEchantillon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/titreMaj"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/majEditTextLib"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="@string/ajoutEditTextLib"
+            android:inputType="textPersonName">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/majEditTextStock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="@string/ajoutEditTextStock"
+            android:inputType="textPersonName">
+
+            <requestFocus />
+        </EditText>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/majButtonSupprimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/majButtonSupprimer" />
+
+        <Button
+            android:id="@+id/majButtonMaj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/majButtonMaj" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/textViewHello"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginTop="167dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/couleurMessage"
+            android:textSize="@dimen/tailleMessage" />
+    </LinearLayout>
+        <Button
+            android:id="@+id/ajoutButtonQuitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/ajoutButtonQuitter" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

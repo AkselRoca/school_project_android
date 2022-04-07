@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AppliFrais</string>
+    <string name="action_settings">Settings</string>
+    <string name="boutonAjout">Ajouter un nouvel échantillon</string>
+    <string name="boutonListe">Liste des échantillons</string>
+    <string name="boutonMaj">Màj d\'un échantillon</string>
+    <string name="descAppli">Application de gestion des échantillons de compléments alimentaires</string>
+
+    <string name="titreSaisie">Saisie d\'un échantillon : </string>
+    <string name="titreListe">Liste des échantillons : </string>
+    <string name="titreMaj">Mise à jour d\'un échantillon : </string>
+
+
+    <string name="ajoutEditTextCode">Saisir ici un code</string>
+    <string name="ajoutEditTextLib">Saisir ici un libellé</string>
+    <string name="ajoutEditTextStock">Saisir ici une quantité</string>
+
+    <string name="ajoutButtonAjouter">Ajouter</string>
+    <string name="ajoutButtonQuitter">Quitter</string>
+    <string name="majButtonSupprimer">Supprimer quantité</string>
+    <string name="majButtonMaj">Ajouter quantité</string>
+
+
+
+
+    // MENU
+    <string name="mnuArticles">Échantillons</string>
+    <string name="mnuAjout">Ajouter</string>
+    <string name="mnuListe">Liste</string>
+    <string name="mnuMaj">Màj</string>
+    <string name="mnuQuitter">Quitter</string>
+    // MENU
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/ListeListViewEchant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp" />
+
+    <TextView
+        android:id="@+id/listeTextViewCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+         />
+
+    <TextView
+        android:id="@+id/listeTextViewLib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/listeTextViewCode"
+        android:layout_alignBottom="@+id/listeTextViewCode"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/listeTextViewCode"
+         />
+
+    <TextView
+        android:id="@+id/listeTextViewStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/listeTextViewLib"
+        android:layout_alignBottom="@+id/listeTextViewLib"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/qte"
+        android:layout_toRightOf="@+id/listeTextViewLib"
+        tools:ignore="UnknownId" />
+</RelativeLayout>

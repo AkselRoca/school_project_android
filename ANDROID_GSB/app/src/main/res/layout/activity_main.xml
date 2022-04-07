@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/descAppli"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonAjout"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/boutonAjout" />
+
+        <Button
+            android:id="@+id/buttonListe"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/boutonListe" />
+
+        <Button
+            android:id="@+id/buttonMaj"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/boutonMaj" />
+    </LinearLayout>
+
+</RelativeLayout>

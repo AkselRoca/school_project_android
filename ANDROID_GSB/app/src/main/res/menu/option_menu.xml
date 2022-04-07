@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/articles"
+
+        android:title="@string/mnuArticles">
+
+        <menu android:id="@+id/sousmenu">
+
+            <item android:id="@+id/ajout"
+
+                android:title="@string/mnuAjout" />
+
+            <item android:id="@+id/liste"
+
+                android:title="@string/mnuListe" />
+            <item android:id="@+id/maj"
+
+                android:title="@string/mnuMaj" />
+
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/quitter"
+
+        android:title="@string/mnuQuitter"
+
+        android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+
+</menu>
